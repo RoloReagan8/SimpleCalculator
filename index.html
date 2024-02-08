@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="calc">
+        <input id="result" readonly>
+        <div id="buttons">
+            <button onclick="addToResult('+')" class="op-btn">+</button>
+            <button onclick="addToResult('7')">7</button>
+            <button onclick="addToResult('8')">8</button>
+            <button onclick="addToResult('9')">9</button>
+            <button onclick="addToResult('-')" class="op-btn">-</button>
+            <button onclick="addToResult('4')">4</button>
+            <button onclick="addToResult('5')">5</button>
+            <button onclick="addToResult('6')">6</button>
+            <button onclick="addToResult('*')" class="op-btn">*</button>
+            <button onclick="addToResult('1')">1</button>
+            <button onclick="addToResult('2')">2</button>
+            <button onclick="addToResult('3')">3</button>
+            <button onclick="addToResult('/')" class="op-btn">/</button>
+            <button onclick="addToResult('0')">0</button>
+            <button onclick="addToResult('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearResult()" class="op-btn">C</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
