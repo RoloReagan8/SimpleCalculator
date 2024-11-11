@@ -1,3 +1,4 @@
 # SimpleCalculator
 
-Direct link:https://roloreagan8.github.io/SimpleCalculator/
+A simple calculator made by Html, css and Javascript
+
