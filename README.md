@@ -1,4 +1,4 @@
 # SimpleCalculator
 
-A simple calculator made by Html, css and Javascript
+A simple calculator made by HTML, CSS and JAVASCRIPT.
 
